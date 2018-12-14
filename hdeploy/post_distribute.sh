@@ -1,4 +1,3 @@
 #!/bin/bash
 
-bundle install
-
+echo this is a post distribute placeholder
