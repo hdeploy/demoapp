@@ -1,3 +1,3 @@
 #!/bin/bash
 
-supervisorctl restart demoapp
+sudo /bin/supervisorctl restart demoapp
