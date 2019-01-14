@@ -7,7 +7,7 @@ class Demoapp < Sinatra::Base
     v = 'unknown'
     f = File.expand_path('../REVISION',__FILE__)
     v = File.read(f) if File.exists? f
-    "Hello I am the demo app running on #{`hostname`.chomp} revision #{v} in mybranch\n"
+    "Josh Hello I am the demo app running on #{`hostname`.chomp} revision #{v} in mybranch\n"
   end
 end
 
